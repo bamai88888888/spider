@@ -8,7 +8,8 @@ foreach($html->find('.wrapper-piclist') as $element){
 		echo $s->children(0)->children(0)->children(0)->src; //图片地址
 		echo $s->children(1)->children(0)->children(0)->plaintext; //评分
 		echo $s->children(1)->children(0)->children(1)->plaintext; //电影名字
-		echo "<br>";
+		echo "1<br>";
+		
 	}
 }
 ?>
